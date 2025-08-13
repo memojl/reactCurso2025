@@ -1,5 +1,6 @@
 //import React from 'react';
 import './App.css';
+import BtnContador from './components/button/BtnContador';
 import { Button } from './components/button/button';
 import ListProducts from './components/list-products/ListProducts';
 
@@ -34,7 +35,7 @@ const App = () => {
           marginTop: 10, // margin-top → marginTop
         }}
       />
-      <Button />
+      <Button /> <BtnContador />
       <br /> <hr /> <br />
       <ListProducts />
     </>
